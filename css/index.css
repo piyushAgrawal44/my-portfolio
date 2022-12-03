@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bannerDiv {
+    padding: 40px 20px 5px 20px;
+    /* height: 100px; */
+    background-color: #5B413A;
+}
+
+.myImage {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+    margin-bottom: 10px;
+    transition: .1s linear all;
+}
+
+/* .myImage:hover {
+    transform: scale(1.02);
+} */
+.navbar-brand {
+    font-weight: 700;
+}
+
+.myDescription {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    text-align: start;
+    align-items: center;
+    align-self: center;
+}
+
+.myDescription .intro {
+    font-family: 'Recursive', sans-serif;
+    font-weight: 600;
+}
+
+.myDescription .role {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.myDescription .desc {
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.educationRow h2 {
+    font-family: 'Recursive', sans-serif;
+    font-weight: 700;
+}
+
+hr {
+    background-color: orange;
+    height: 2px !important;
+    opacity: 1;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: 150px;
+    width: auto;
+    margin: auto;
+}
+
+.projectsRow h2 {
+    font-family: 'Recursive', sans-serif;
+    font-weight: 700;
+}
+
+.contactRow h2 {
+    font-family: 'Recursive', sans-serif;
+    font-weight: 700;
+}
+
+.formBtn {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 600;
+}
+
+.contactImg {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+
+.myFooter {
+    font-family: 'Recursive', sans-serif;
+    /* font-weight: 600; */
+    font-size: 16px;
+}
