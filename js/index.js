@@ -1,6 +1,6 @@
 let myForm = document.getElementById('myForm');
 myForm.addEventListener('submit', function (e) {
-    document.getElementById('submit_btn').disaabled = false;
+    document.getElementById('submit_btn').disabled = true;
     e.preventDefault();  //stop form from submitting
 
 
@@ -31,18 +31,20 @@ myForm.addEventListener('submit', function (e) {
                 document.getElementsByName('phone')[0].value = "";
                 document.getElementsByName('subject')[0].value = "";
                 document.getElementsByName('message')[0].value="";
-                document.getElementById('submit_btn').disaabled = false;
+                document.getElementById('submit_btn').disabled = false;
             },
            
             error: function (error) {
                 console.log(error);
                 $('#errorMessage').text("Sorry something went wrong.");
                 $('#errorModal').modal('show');
+                document.getElementById('submit_btn').disabled = false;
             }
         });
     }
     else {
         $('#errorMessage').text("Please fill all the details correctly.");
         $('#errorModal').modal('show');
+        document.getElementById('submit_btn').disabled = false;
     }
 })
