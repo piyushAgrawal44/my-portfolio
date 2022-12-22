@@ -1,5 +1,6 @@
 let myForm = document.getElementById('myForm');
 myForm.addEventListener('submit', function (e) {
+    document.getElementById('customLoaderBox').style.visibility='visible';
     document.getElementById('submit_btn').disabled = true;
     e.preventDefault();  //stop form from submitting
 
@@ -24,6 +25,7 @@ myForm.addEventListener('submit', function (e) {
             cache: false,
             success: function (data) {
                 // console.log(data);
+                document.getElementById('customLoaderBox').style.visibility='hidden';
                 $('#errorMessage').text("Thank you for your request.");
                 $('#successModal').modal('show');
                 document.getElementsByName('name')[0].value = "";
@@ -35,6 +37,7 @@ myForm.addEventListener('submit', function (e) {
             },
            
             error: function (error) {
+                document.getElementById('customLoaderBox').style.visibility='hidden';
                 console.log(error);
                 $('#errorMessage').text("Sorry something went wrong.");
                 $('#errorModal').modal('show');
@@ -43,6 +46,7 @@ myForm.addEventListener('submit', function (e) {
         });
     }
     else {
+        document.getElementById('customLoaderBox').style.visibility='hidden';
         $('#errorMessage').text("Please fill all the details correctly.");
         $('#errorModal').modal('show');
         document.getElementById('submit_btn').disabled = false;

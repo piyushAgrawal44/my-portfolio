@@ -80,10 +80,13 @@ hr {
     font-family: 'Recursive', sans-serif;
     font-weight: 700;
 }
-
+.contactRow{
+    position: relative;
+}
 .contactRow h2 {
     font-family: 'Recursive', sans-serif;
     font-weight: 700;
+   
 }
 
 .formBtn {
@@ -104,6 +107,73 @@ hr {
 
 .myFooter {
     font-family: 'Recursive', sans-serif;
-    /* font-weight: 600; */
     font-size: 16px;
+}
+
+/* Loader CSS */
+
+.customLoaderBox{
+    position: absolute;
+    bottom: calc(50% - 40px);
+    left: calc(50% - 40px);
+    height: 80px;
+    width: 80px;
+    padding: 0px;
+    background-color: rgba(16, 15, 15, 0.3);
+    border-radius: 50%;
+    visibility: hidden;
+}
+.dot-1{
+    position: absolute;
+    bottom: calc(50% - 5px);
+    left: calc(50% - 5px);
+    height: 10px;
+    width: 10px;
+    background-color: #FF6F91;
+    border-radius: 50%;
+    border: none;
+    animation: rotate-ani-one 2s linear infinite;
+    animation-delay: 1850ms;
+    transform: translateY(-22px);
+}
+
+.dot-2{
+    position: absolute;
+    bottom: calc(50% - 5px);
+    left: calc(50% - 5px);
+    height: 10px;
+    width: 10px;
+    background-color: #FF6F91;
+    border-radius: 50%;
+    border: none;
+    animation: rotate-ani-two 2s linear infinite;
+    transform: translateY(-22px);
+}
+
+@keyframes rotate-ani-one {
+    from {
+        transform: rotate(0deg) translateY(-22px);
+    }
+    25%{
+        transform: rotate(180deg) translateY(-22px);
+    }
+    50%{
+        transform: rotate(180deg) translateY(-22px);
+    }
+    75%{
+        transform: rotate(360deg) translateY(-22px);
+    }
+    to{
+        transform: rotate(360deg) translateY(-22px);
+    }
+}
+
+@keyframes rotate-ani-two {
+    from {
+        transform: rotate(0deg) translateY(-22px);
+    }
+
+    to {
+        transform: rotate(360deg) translateY(-22px);
+    }
 }
