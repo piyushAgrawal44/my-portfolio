@@ -21,11 +21,13 @@
     border-bottom: 2px solid orange;
     border-top: 2px solid orange;
     margin-bottom: 10px;
-    transition: .1s linear all;
+    transition: 0.5s linear all;
+    
+
 }
 
 /* .myImage:hover {
-    transform: scale(1.02);
+    transform: rotateZ(365deg);
 } */
 .navbar-brand {
     font-weight: 700;
@@ -113,7 +115,7 @@ hr {
 /* Loader CSS */
 
 .customLoaderBox{
-    position: absolute;
+    position: fixed;
     bottom: calc(50% - 40px);
     left: calc(50% - 40px);
     height: 80px;
