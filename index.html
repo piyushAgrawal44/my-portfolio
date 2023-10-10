@@ -53,7 +53,10 @@
 
     <!-- banner div -->
     <div class="bannerDiv container-fluid"  id="about">
-        <div class="row">
+        <div class="max-width-1000">
+
+        
+        <div class="row text-lg-center">
             <div class="col-12 col-md-auto align-self-center">
                 <div class="imgDiv text-center">
                     <img class="myImage rounded-circle" src="./images/piyush_agrawal.jpg" alt="Piyush Agrawal">
@@ -62,9 +65,9 @@
             <div class="col-12 col-md align-self-center">
                 <div class="myDescription text-center text-md-start">
                     <p class="mb-0 intro">Hello, my name is <span class="text-warning">Piyush Agrawal</span></p>
-                    <h2 class="mt-2 text-light ">I am a <span class="role">Full Stack Web Developer</span></h2>
+                    <h2 class="mt-2 text-light ">I am a <span id="typingrole" class="role"></span></h2>
                     <p class="desc">
-                        Piyush Agrawal is a full satck web developer and 2023 batch undergraduate student at <b>NIT
+                        I am a full satck web developer and 2023 batch undergraduate student at <b>NIT
                             Raipur</b>. I have completed 2 web development internships and have total <b>1+ year</b> of internship
                         exeperience in website developent. Tech stack in which I am efficient are <b>Laravel</b>,
                         <b>React JS</b>,
@@ -82,6 +85,7 @@
                 </div>
             </div>
         </div>
+    </div>
         <br>
         <br>
         <div class="row educationRow" id="education">
@@ -226,18 +230,45 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 text-center mb-4">
+            <!-- <div class="col-12 col-md-4 text-center mb-4">
                 <img src="./images/projectsImages/shopping.png" class="card-img-top" alt="E commerce">
 
                 <div class="card mt-3" style="max-width: 30rem; margin: auto;">
                     <div class="card-body">
-                        <h4 class="card-title"><b>E commerce Web Clone</b></h4>
+                        <h4 class="card-title"><b>E Commerce Project</b></h4>
                         <p class="card-text mb-0 text-justify ">I have build build a clone of <a
                                 class="text-decoration-none " target="_blank"
                                 href="https://www.myntra.com/shirts">Myntra page</a> using
                             HTML, CSS, JavaScript and Bootstrap. In the clone I have replicated the the UI of Myntra
                             page. I have created components like search box, cards, dropdowns, youtube
                             videos etc. We can customize this template and use it for some e-commerce business.
+                        </p>
+
+                        <div class="d-flex mt-2 justify-content-center">
+                            <span>URL: &nbsp;&nbsp;</span>
+                            <a class="text-decoration-none    me-2"
+                                href="https://piyushagrawal44.github.io/myntra-web-page/" target="_blank"><b><i
+                                        class="bi bi-globe2"></i></b></a>
+                            <a class="text-decoration-none text-dark   "
+                                href="https://github.com/piyushAgrawal44/myntra-web-page" target="_blank"><b><i
+                                        class="bi bi-github"></i></b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div> -->
+            <div class="col-12 col-md-4 text-center mb-4">
+                <img src="./images/projectsImages/shopping.png" class="card-img-top" alt="E commerce">
+
+                <div class="card mt-3" style="max-width: 30rem; margin: auto;">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>Front End Project</b></h4>
+                        <p class="card-text mb-0 text-justify ">I have build build a  <a
+                                class="text-decoration-none " target="_blank"
+                                href="https://sile-web-live.netlify.app/">Website</a> for game based learning
+                            provider startup. In the clone I have replicated the the UI of Loom. 
+                            This website is completely responsive and have a good UX. I have added user responsive animations. 
+                            I have used React JS and Tailwind CSS to build this project. Using react js I have made reuseable components
                         </p>
 
                         <div class="d-flex mt-2 justify-content-center">
@@ -267,6 +298,9 @@
             <br>
             <hr>
             <br>
+            <div class="row max-width-1000">
+
+            
             <div class="col-12 col-sm-6 mb-2 text-center align-self-center">
                 <img src="./images/contactus.png" class="contactImg" alt="contact us">
             </div>
@@ -297,7 +331,7 @@
                     <button type="submit" id="submit_btn" class="btn formBtn mb-3">Submit</button>
                 </form>
             </div>
-
+        </div>
             <h6 class="text-light text-center">* Also you can directly contact me on my mail id <b><a
                         class="text-decoration-none text-light"
                         href="mailtopiyushbansal941@gmail.com">piyushbansal941@gmail.com</a></b>. I usually give
@@ -335,7 +369,11 @@
         </div>
 
     </div>
-
+    <h1>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+          <span class="wrap"></span>
+        </a>
+      </h1>
 
     <!-- Modal -->
     <div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
@@ -406,6 +444,24 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+        var i = 0;
+        var txt = 'Full Stack Web Developer'; /* The text */
+        var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("typingrole").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        typeWriter();
+        
+        
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
