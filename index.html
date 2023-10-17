@@ -325,9 +325,10 @@
                             <input type="email" name="email" maxlength="80" class="form-control"
                                 placeholder="Your Email" required>
                         </div>
-                        <div class="col-12 col-sm-6 text-center mb-2 ">
-                            <input type="tel" name="phone" minlength="10" maxlength="15" class="form-control"
-                                placeholder="Your Mobile" required>
+                        <div class="col-12 col-sm-6  mb-2 ">
+                            <input type="tel" name="phone" minlength="10" maxlength="10" class="form-control"
+                                placeholder="Your Mobile" required oninput="validatePhoneNumber(this)">
+                            <small id="phoneError" style="color: #FF7E7F;"></small>
                         </div>
                         <div class="col-12 col-sm-6 text-center mb-2 ">
                             <input type="text" name="subject" maxlength="150" class="form-control"
@@ -374,7 +375,7 @@
 
             </div>
             <div class="col-12 col-sm-4 text-center mb-2 mb-sm-0">
-                <span class="text-light">Developed and maintain by <b>Piyush Agrawal</b></span>
+                <span class="text-light">Developed and maintain by <span class=""><b>Piyush Agrawal</b></span></span>
             </div>
             <div class="col-12 col-sm-4 text-center mb-2 mb-sm-0">
                 <a class="text-decoration-none text-light" data-bs-toggle="modal" data-bs-target="#creditsModal">Credits/Attributions</a>
@@ -474,6 +475,22 @@
         }
         typeWriter();
         
+
+        function validatePhoneNumber(input) {
+            const phoneError = document.getElementById('phoneError');
+            // Remove non-numeric characters from the input
+            const numericValue = input.value.replace(/\D/g, '');
+            // Check if the numeric value matches the pattern
+            const phonePattern = /^[6-8]\d{9}$/;
+            
+            if (phonePattern.test(numericValue) && numericValue.length === 10) {
+                phoneError.textContent = ''; // Clear error message
+            } else {
+                phoneError.textContent = 'Enter a valid phone number';
+            }
+            // Update the input value with the sanitized numeric value
+            input.value = numericValue;
+        }
         
     </script>
 
