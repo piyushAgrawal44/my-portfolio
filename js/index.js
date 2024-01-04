@@ -52,3 +52,83 @@ myForm.addEventListener('submit', function (e) {
         document.getElementById('submit_btn').disabled = false;
     }
 })
+
+
+function toggleFxn(type){
+    
+    if(type=="experience"){
+        $("#exp_btn").addClass('btn-type1');
+        $('#exp_btn').removeClass('btn-type2');
+        $("#edu_btn").addClass('btn-type2');
+        $('#edu_btn').removeClass('btn-type1');
+        $("#experience_div").removeClass('d-none');
+        $("#education_div").addClass('d-none');
+    }
+    else{
+        $("#edu_btn").addClass('btn-type1');
+        $('#edu_btn').removeClass('btn-type2');
+        $("#exp_btn").addClass('btn-type2');
+        $('#exp_btn').removeClass('btn-type1');
+        $("#education_div").removeClass('d-none');
+        $("#experience_div").addClass('d-none');
+    }
+}
+
+// tabs js
+let tabs = document.querySelector(".tabs");
+let tabHeader = tabs.querySelector(".tab-header");
+let tabHeaderElements = tabs.querySelectorAll(".tab-header > div");
+let tabBody = tabs.querySelector(".tab-body");
+let tabBodyElements = tabs.querySelectorAll(".tab-body > div");
+let tabIndicator = tabs.querySelector(".tab-indicator > div");
+
+for (let i = 0; i < tabHeaderElements.length; i++) {
+  tabHeaderElements[i].addEventListener("click", function () {
+    tabHeader.querySelector(".active").classList.remove("active");
+    tabHeaderElements[i].classList.add("active");
+    tabBody.querySelector(".active").classList.remove("active");
+    tabBodyElements[i].classList.add("active");
+    // tabIndicator.style.left = `${(i+1) * 25}%`;
+    $(".tab-indicator > div").toggleClass('active_tab')
+  });
+}
+
+
+//typing effect
+
+var wordsToType = document
+    .querySelector("span[words]")
+    .getAttribute("words")
+    .split(","),
+  typer = document.querySelector("span[words]"),
+  typingSpeed = parseInt(typer.getAttribute("typing-speed")) || 70,
+  typingDelay = parseInt(typer.getAttribute("typing-delay")) || 700;
+
+var currentWordIndex = 0,
+  currentCharacterIndex = 0;
+
+function type() {
+  var wordToType = wordsToType[currentWordIndex % wordsToType.length];
+
+  if (currentCharacterIndex < wordToType.length) {
+    typer.innerHTML += wordToType[currentCharacterIndex++];
+    setTimeout(type, typingSpeed);
+  } else {
+    setTimeout(erase, typingDelay);
+  }
+}
+function erase() {
+  var wordToType = wordsToType[currentWordIndex % wordsToType.length];
+  if (currentCharacterIndex > 0) {
+    typer.innerHTML = wordToType.substr(0, --currentCharacterIndex - 1);
+    setTimeout(erase, typingSpeed);
+  } else {
+    currentWordIndex++;
+    setTimeout(type, typingDelay);
+  }
+}
+
+window.onload = function () {
+  type();
+};
+
