@@ -666,6 +666,12 @@ border-right: 1px solid #414141;
 }
 
 @media (max-width:500px) {
+  .myImg{
+    max-width: 260px; 
+    width: 100%;
+    transform: rotateY(180deg);
+    animation: slideIn 1s linear;
+}
     .tabs .title {
         padding: 50px 10px 100px;
         font-size: 18px;
@@ -694,6 +700,7 @@ border-right: 1px solid #414141;
        
         width: calc(100% - 5px);
       }
+
 }
 
 @keyframes rotate-ani-one {
