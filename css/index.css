@@ -155,31 +155,7 @@ body {
     align-self: center;
 }
 
-.myDescription .intro {
-    font-family: 'Recursive', sans-serif;
-    font-weight: 600;
-}
 
-.myDescription .role {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-}
-
-.myDescription .desc {
-    font-family: 'Inter', sans-serif;
-    text-align: justify;
-}
-
-.educationRow h2 {
-    font-family: 'Recursive', sans-serif;
-    font-weight: 700;
-}
-
-hr {
-    background-color: orange;
-    height: 2px !important;
-    opacity: 1;
-}
 
 .card-img-top {
     max-width: 100%;
