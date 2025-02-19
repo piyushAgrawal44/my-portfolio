@@ -75,6 +75,80 @@ const blogs = [
         </div>
         `,
         created_date: "19 Feb 2025"
+    },
+    {
+        "category": "Product Review",
+        "title": "She Essentials Lavender Essential Oil Combo for Hair Nourishment, Moisturizing Skin - 100% Pure, Natural and Undiluted Oil, For Healthy Hair & Growth, Skin, Hair Fall Control and Relaxing Sleep | 2x5ml",
+        "image": "https://m.media-amazon.com/images/I/61UDQ55JMQL._SX679_PIbundle-2,TopRight,0,0_AA679SH20_.jpg",
+        "purchase_link": "https://amzn.to/4i5QkQ4",
+        "content": `
+        <div class="mb-3">
+            <div class="">
+                <h2 class="card-title">#ProductReview</h2>
+                <p class="">She Essentials Lavender Essential Oil is a premium blend designed for hair nourishment, skin moisturizing, and relaxation.</p>
+                
+                <p class="">This 100% pure, natural, and undiluted lavender oil helps promote hair growth, control hair fall, and provides a calming effect for better sleep. It is suitable for aromatherapy, skincare, and scalp massages.</p>
+
+                <hr>
+
+                <h3 class="card-title">#KeyBenefits</h3>
+
+                <ul class="list-group list-group-numbered">
+                    <li class="">Promotes healthy hair growth and reduces hair fall.</li>
+                    <li class="">Deeply moisturizes and nourishes the skin.</li>
+                    <li class="">Helps in relaxation and better sleep with its soothing aroma.</li>
+                    <li class="">100% pure, natural, and undiluted essential oil.</li>
+                </ul>
+
+                <hr>
+
+                <p class="">Have you tried this product? Share your thoughts in the comments!</p>
+
+                <p class="">That's all for today.</p>
+
+                <p class="">Signing off,</p>
+                <p class="">Piyush Agrawal</p>
+            </div>
+        </div>
+        `,
+        "created_date": "19 Feb 2025"
+    },
+    {
+        "category": "Product Review",
+        "title": "BLUE TEA - Chamomile Tea - 30 g - 30+ Cups | SLEEP & RELAXATION | Herbal Tea - Caffeine Free - Flower Based - Non-Bitter - Non-GMO | Featured In Shark Tank | Reusable Pet Jar",
+        "image": "https://m.media-amazon.com/images/I/61CGFIrP6vL._SX679_.jpg",
+        "purchase_link": "https://amzn.to/3ELeWzf",
+        "content": `
+        <div class="mb-3">
+            <div class="">
+                <h2 class="card-title">#ProductReview</h2>
+                <p class="">BLUE TEA Chamomile Tea is a caffeine-free herbal tea designed for relaxation, stress relief, and better sleep.</p>
+                
+                <p class="">Made from high-quality chamomile flowers, this tea is rich in antioxidants and has a smooth, non-bitter taste. It is an excellent natural remedy for stress management and digestive health.</p>
+
+                <hr>
+
+                <h3 class="card-title">#KeyBenefits</h3>
+
+                <ul class="list-group list-group-numbered">
+                    <li class="">Promotes sleep and relaxation.</li>
+                    <li class="">Caffeine-free and rich in antioxidants.</li>
+                    <li class="">Supports digestion and stress relief.</li>
+                    <li class="">Non-GMO, flower-based, and comes in a reusable pet jar.</li>
+                </ul>
+
+                <hr>
+
+                <p class="">Have you tried this tea? Let us know your experience in the comments!</p>
+
+                <p class="">That's all for today.</p>
+
+                <p class="">Signing off,</p>
+                <p class="">Piyush Agrawal</p>
+            </div>
+        </div>
+        `,
+        "created_date": "19 Feb 2025"
     }
 ];
 

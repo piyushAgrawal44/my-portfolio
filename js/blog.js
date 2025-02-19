@@ -31,6 +31,22 @@ const productReviews = [
         content: "FARM BIONICS Combo of Guava Flavour Vitamin B12 and Muskmelon Flovour Vitamin D3 Oral Spray, 30ml | 100% Vegetarian | Sugar and Gluten Free | Immunity Booster Spray for Men and Women",
         created_date: "19 Feb 2025"
     },
+    {
+        category: "Product Review",
+        title: "She Essentials Lavender Essential Oil Combo for Hair Nourishment, Moisturizing Skin - 100% Pure, Natural and Undiluted Oil, For Healthy Hair & Growth, Skin, Hair Fall Control and Relaxing Sleep | 2x5ml",
+        image: "https://m.media-amazon.com/images/I/61UDQ55JMQL._SX679_PIbundle-2,TopRight,0,0_AA679SH20_.jpg",
+        content: "100% pure and natural lavender essential oil that nourishes hair, moisturizes skin, and promotes relaxation for better sleep.",
+        purchase_link: "https://amzn.to/4i5QkQ4",
+        created_date: "19 Feb 2025"
+    },
+    {
+        category: "Product Review",
+        title: "BLUE TEA - Chamomile Tea - 30 g - 30+ Cups | SLEEP & RELAXATION | Herbal Tea - Caffeine Free - Flower Based - Non-Bitter - Non-GMO | Featured In Shark Tank | Reusable Pet Jar",
+        image: "https://m.media-amazon.com/images/I/61CGFIrP6vL._SX679_.jpg",
+        content: "A caffeine-free herbal tea made from chamomile flowers, promoting relaxation, stress relief, and better sleep.",
+        purchase_link: "https://amzn.to/3ELeWzf",
+        created_date: "19 Feb 2025"
+    }
 ];
 
 // Function to dynamically generate blog articles using innerHTML
