@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piyush Agrawal - Blog Page</title>
+    <title>Piyush Agrawal - Full Stack Developer</title>
     <meta name="description"
         content="I am Piyush Agrawal, a versatile Full Stack Developer with 1.5+ years of experience in web development. Specializing in Laravel, React JS, JavaScript, PHP, Ajax, and C++. Craft seamless web solutions and deliver comprehensive user experiences.">
     <meta name="keyword" content="Engineer Piyush Agrawal, Piyush Agrawal Developer, Full Stack Developer">
@@ -73,11 +73,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/blog.css">
+    <style>
+        .single-blog-container {
+            max-width: 800px;
+            margin: 10px auto;
+        }
+
+        .single-blog {
+            margin-bottom: 30px;
+        }
+
+        .single-blog h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .single-blog-image {
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 10px;
+        }
+
+        .single-blog-category,
+        .single-blog-date {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .single-blog-content p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+    </style>
 </head>
 
-
 <body>
+
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="navabr">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html#about">Piyush Agrawal</a>
@@ -111,107 +143,97 @@
             </div>
         </div>
     </nav>
-
-    <div class="blog-hero-section">
-        <div class="text-center">
-            <h1 class="text-light">Blogs</h1>
-            <h4 class="text-light w-75 mx-auto">Always Hungry For New Knowledge. Blogs, Case Study, Technology & Many More Topics. Read What You Take Personal...</h4>
+    <div class="single-blog-container">
+        <div id="blog-content" class="blog-content">
+            <!-- Blog content will be dynamically inserted here -->
         </div>
-    </div>
-    <div class="wrap" id="blog-list">
-        <!-- Blog articles will be dynamically generated here -->
-    </div>
-
-    <div class="container-fluid mt-5 p-2">
-        <h4>Product Review:</h4>
-        <div class="wrap" id="product-review-list"></div>
     </div>
 
     <div class="container-fluid">
 
-    
-    <div class="row " id="contact">
-        <h2 class="mt-2 text-center  ">Contact Me</h2>
 
-        <br>
-        <div class="row max-width-1000" data-aos="fade-up" data-aos-once='true'>
+        <div class="row " id="contact">
+            <h2 class="mt-2 text-center  ">Contact Me</h2>
+
+            <br>
+            <div class="row max-width-1000" data-aos="fade-up" data-aos-once='true'>
 
 
-            <div class="col-12 col-sm-6 mb-2 text-center align-self-center">
-                <img src="./images/contactus.png" class="contactImg" alt="contact us">
+                <div class="col-12 col-sm-6 mb-2 text-center align-self-center">
+                    <img src="./images/contactus.png" class="contactImg" alt="contact us">
+                </div>
+                <div class="col-12 col-sm-6 mb-2 align-self-center">
+                    <form id="myForm" method="post">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 text-center mb-2 ">
+                                <input type="text" name="name" maxlength="50" class="form-control"
+                                    placeholder="Your Name" required>
+                            </div>
+                            <div class="col-12 col-sm-6 text-center mb-2 ">
+                                <input type="email" name="email" maxlength="80" class="form-control"
+                                    placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12 col-sm-6  mb-2 ">
+                                <input type="tel" name="phone" minlength="10" maxlength="10" class="form-control"
+                                    placeholder="Your Mobile" required oninput="validatePhoneNumber(this)">
+                                <small id="phoneError" style="color: #FF7E7F;"></small>
+                            </div>
+                            <div class="col-12 col-sm-6 text-center mb-2 ">
+                                <input type="text" name="subject" maxlength="150" class="form-control"
+                                    placeholder="Write Subject" required>
+                            </div>
+                            <div class="col-12 text-center mb-2 ">
+                                <textarea name="message" id="message" maxlength="250" class="form-control" rows="3"
+                                    placeholder="Write your message here" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" id="submit_btn" class="btn btn-type1 mb-3">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="col-12 col-sm-6 mb-2 align-self-center">
-                <form id="myForm" method="post">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 text-center mb-2 ">
-                            <input type="text" name="name" maxlength="50" class="form-control"
-                                placeholder="Your Name" required>
-                        </div>
-                        <div class="col-12 col-sm-6 text-center mb-2 ">
-                            <input type="email" name="email" maxlength="80" class="form-control"
-                                placeholder="Your Email" required>
-                        </div>
-                        <div class="col-12 col-sm-6  mb-2 ">
-                            <input type="tel" name="phone" minlength="10" maxlength="10" class="form-control"
-                                placeholder="Your Mobile" required oninput="validatePhoneNumber(this)">
-                            <small id="phoneError" style="color: #FF7E7F;"></small>
-                        </div>
-                        <div class="col-12 col-sm-6 text-center mb-2 ">
-                            <input type="text" name="subject" maxlength="150" class="form-control"
-                                placeholder="Write Subject" required>
-                        </div>
-                        <div class="col-12 text-center mb-2 ">
-                            <textarea name="message" id="message" maxlength="250" class="form-control" rows="3"
-                                placeholder="Write your message here" required></textarea>
-                        </div>
-                    </div>
-                    <button type="submit" id="submit_btn" class="btn btn-type1 mb-3">Submit</button>
-                </form>
+            <h6 class="text-center">* Also you can directly contact me on my mail id <b><a
+                        class="text-decoration-none text-dark"
+                        href="mailto:piyushbansal941@gmail.com">piyushbansal941@gmail.com</a></b>. I usually give
+                response within few hours. *</h6>
+
+
+            <div class="text-center my-2">
+                <a class="btn btn-type1" target="_blank" href="./piyush_agrawal_developer.pdf"><b>Download
+                        Resume</b></a>
             </div>
-        </div>
-        <h6 class="text-center">* Also you can directly contact me on my mail id <b><a
-                    class="text-decoration-none text-dark"
-                    href="mailto:piyushbansal941@gmail.com">piyushbansal941@gmail.com</a></b>. I usually give
-            response within few hours. *</h6>
+            <div class="customLoaderBox" id="customLoaderBox">
+                <div class="dot-1"></div>
+                <div class="dot-2"></div>
+            </div>
 
-
-        <div class="text-center my-2">
-            <a class="btn btn-type1" target="_blank" href="./piyush_agrawal_developer.pdf"><b>Download
-                    Resume</b></a>
         </div>
-        <div class="customLoaderBox" id="customLoaderBox">
-            <div class="dot-1"></div>
-            <div class="dot-2"></div>
-        </div>
+        <br><br>
+        <!-- Footer -->
+        <div class="row myFooter">
+            <hr>
+            <div class="col-12 col-sm-4 text-center mb-2 mb-sm-0">
+                <div class="d-flex justify-content-center social_links">
+                    <a class="text-decoration-none text-dark me-3"
+                        href="https://www.linkedin.com/in/piyush-agrawal-ab687321b/" target="_blank"><b><i
+                                class="bi bi-linkedin"></i></b></a>
+                    <a class="text-decoration-none text-dark me-3" href="https://github.com/piyushAgrawal44/"
+                        target="_blank"><b><i class="bi bi-github"></i></b></a>
+                    <a class="text-decoration-none text-dark me-3" href="https://leetcode.com/PiyushAgrawal44/"
+                        target="_blank"><b><i class="bi bi-code-slash"></i></b></a>
+                </div>
 
+            </div>
+            <div class="col-12 col-sm-4 text-center mb-2 mb-sm-0">
+                <span class="text-dark">Developed and maintain by <span class=""><b>Piyush Agrawal</b></span></span>
+            </div>
+            <div class="col-12 col-sm-4 text-center mb-2 mb-sm-0">
+                <a class="text-decoration-none text-dark" data-bs-toggle="modal"
+                    data-bs-target="#creditsModal">Credits/Attributions</a>
+            </div>
+
+        </div>
     </div>
-    <br><br>
-    <!-- Footer -->
-    <div class="row myFooter">
-        <hr>
-        <div class="col-12 col-sm-4 text-center mb-2 mb-sm-0">
-            <div class="d-flex justify-content-center social_links">
-                <a class="text-decoration-none text-dark me-3"
-                    href="https://www.linkedin.com/in/piyush-agrawal-ab687321b/" target="_blank"><b><i
-                            class="bi bi-linkedin"></i></b></a>
-                <a class="text-decoration-none text-dark me-3" href="https://github.com/piyushAgrawal44/"
-                    target="_blank"><b><i class="bi bi-github"></i></b></a>
-                <a class="text-decoration-none text-dark me-3" href="https://leetcode.com/PiyushAgrawal44/"
-                    target="_blank"><b><i class="bi bi-code-slash"></i></b></a>
-            </div>
 
-        </div>
-        <div class="col-12 col-sm-4 text-center mb-2 mb-sm-0">
-            <span class="text-dark">Developed and maintain by <span class=""><b>Piyush Agrawal</b></span></span>
-        </div>
-        <div class="col-12 col-sm-4 text-center mb-2 mb-sm-0">
-            <a class="text-decoration-none text-dark" data-bs-toggle="modal"
-                data-bs-target="#creditsModal">Credits/Attributions</a>
-        </div>
-
-    </div>
-
-</div>
     <!-- Modal -->
     <div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -333,8 +355,8 @@
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/single-review.js"></script>
 
-    <script src="./js/blog.js"></script>
 </body>
 
 </html>

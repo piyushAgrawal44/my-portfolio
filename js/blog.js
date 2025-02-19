@@ -16,6 +16,23 @@ const blogs = [
     },
 ];
 
+const productReviews = [
+    {
+        category: "Product Review",
+        title: "hoop Magnesium Sleep Body Lotion | Topical Magnesium Chloride Supplement for Muscle Recovery, Better Sleep | Magnesium Oil Supports Deep Sleep, Recovery from Cramps, Fitness | 250 ml",
+        image: "https://m.media-amazon.com/images/I/71zRBjJvF+L._SX679_.jpg",
+        content: "Magnesium sleep lotion has magnesium oil, lavender that relax muscles for natural good sleep support",
+        created_date: "19 Feb 2025"
+    },
+    {
+        category: "Product Review",
+        title: "FARM BIONICS Combo of Guava Flavour Vitamin B12 and Muskmelon Flovour Vitamin D3 Oral Spray, 30ml | 100% Vegetarian",
+        image: "https://m.media-amazon.com/images/I/710YzKz--eL._SX679_.jpg",
+        content: "FARM BIONICS Combo of Guava Flavour Vitamin B12 and Muskmelon Flovour Vitamin D3 Oral Spray, 30ml | 100% Vegetarian | Sugar and Gluten Free | Immunity Booster Spray for Men and Women",
+        created_date: "19 Feb 2025"
+    },
+];
+
 // Function to dynamically generate blog articles using innerHTML
 function generateBlogArticles() {
     const blogList = document.getElementById('blog-list');
@@ -39,5 +56,31 @@ function generateBlogArticles() {
     blogList.innerHTML = html;
 }
 
+// Function to dynamically generate blog articles using innerHTML
+function generateProductReviewArticles() {
+    const blogList = document.getElementById('product-review-list');
+    let html = '';
+
+    productReviews.forEach((blog,index) => {
+        html += `
+        <a class="decoration-none" href="./single-product-review.html?id=${index+1}">
+            <div class="article" style="background-image: url(${blog.image});">
+                <div class="overlay"></div>
+                <div class="wrap-cat">
+                    <span class="cat" data-hover="${blog.category}">${blog.category}</span>
+                </div>
+                <h1><span>${blog.title}</span></h1>
+                <p class="text-light">${blog.created_date}</p>
+            </div>
+        </a>
+        `;
+    });
+
+    blogList.innerHTML = html;
+}
+
 // Call the function to generate blog articles on page load
-document.addEventListener('DOMContentLoaded', generateBlogArticles);
+document.addEventListener('DOMContentLoaded', function(){
+    generateBlogArticles();
+    generateProductReviewArticles();
+});
