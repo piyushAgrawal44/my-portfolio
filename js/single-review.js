@@ -149,7 +149,45 @@ const blogs = [
         </div>
         `,
         "created_date": "19 Feb 2025"
-    }
+    },
+    {
+        "category": "Product Review",
+        "title": "SPEECHGEARS Tactile Kit | Sensory Integration, Speech & Feeding Tools | V-Pen, Uni-Tip, Pointed-Tip, Talk-Tip (Red)",
+        "image": "https://m.media-amazon.com/images/I/71sMxjgDZ+L._SX679_.jpg",
+        "purchase_link": "https://amzn.to/4i0w6qk",
+        "content": `
+          <div class="mb-3">
+              <div class="">
+                  <h2 class="card-title">#ProductReview</h2>
+                  <p class="">The SPEECHGEARS Tactile Kit is a thoughtfully designed set of sensory and speech therapy tools aimed at improving oral motor skills, speech clarity, and feeding habits.</p>
+                  
+                  <p class="">Ideal for children with speech delays or sensory integration issues, the kit includes the V-Pen (a vibration tool) along with various interchangeable tips like Uni-Tip, Pointed-Tip, and Talk-Tip. These tools help stimulate oral muscles, reduce drooling, and promote focus during therapy sessions.</p>
+      
+                  <hr>
+      
+                  <h3 class="card-title">#KeyBenefits</h3>
+      
+                  <ul class="list-group list-group-numbered">
+                      <li class="">Enhances speech development and oral motor coordination.</li>
+                      <li class="">Supports sensory integration and focus.</li>
+                      <li class="">Helps in managing feeding challenges and drooling.</li>
+                      <li class="">Comes with multiple tip attachments for varied therapeutic needs.</li>
+                  </ul>
+      
+                  <hr>
+      
+                  <p class="">If you're a parent or therapist, this kit can be a valuable addition to your therapy toolkit. Share your thoughts or experiences with SPEECHGEARS in the comments below!</p>
+      
+                  <p class="">That's all for today.</p>
+      
+                  <p class="">Signing off,</p>
+                  <p class="">Piyush Agrawal</p>
+              </div>
+          </div>
+        `,
+        "created_date": "06 Apr 2025"
+      }
+      
 ];
 
 

@@ -46,6 +46,14 @@ const productReviews = [
         content: "A caffeine-free herbal tea made from chamomile flowers, promoting relaxation, stress relief, and better sleep.",
         purchase_link: "https://amzn.to/3ELeWzf",
         created_date: "19 Feb 2025"
+    },
+    {
+        category: "Product Review",
+        title: "SPEECHGEARS Tactile Kit, Sensory Integration Tools, Speech Tools, Feeding Tools, V-Pen, Uni-Tip, Pointed-Tip, Talk-Tip (Red)",
+        image: "https://m.media-amazon.com/images/I/71sMxjgDZ+L._SX679_.jpg",
+        content: "(Vibration Device & Speech tools) 1.V-Pen,2-Uni-Tip,3.Pointed-Tip,4.Talk-Tip,5.Spare battery,6.Usase book .",
+        purchase_link: "https://amzn.to/4i0w6qk",
+        created_date: "06 Apr 2025"
     }
 ];
 
