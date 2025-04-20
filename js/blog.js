@@ -87,6 +87,14 @@ const productReviews = [
         content: "Boldfit Waist Bag for Men and Women",
         created_date: "15 Apr 2025"
     },
+    {
+        category: "Product Review",
+        title: "Amazon Top Deals & Offers | Upto 50% Off on Electronics, Fashion, Home & Kitchen, Grocery & More",
+        image: "https://m.media-amazon.com/images/I/4118JmMFJNL._MCnd_AC_.jpg",
+        purchase_link: "https://amzn.to/4jBJnYh",
+        content: "Amazon Top Deals & Offers | Upto 50% Off on Electronics, Fashion, Home & Kitchen, Grocery & More",
+        created_date: "15 Apr 2025"
+    },
 ];
 
 // Function to dynamically generate blog articles using innerHTML

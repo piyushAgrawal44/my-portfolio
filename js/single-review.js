@@ -285,6 +285,23 @@ const blogs = [
         "created_date": "20 Apr 2025"
     },
 
+    {
+        "category": "Product Review",
+        "title": "Amazon Top Deals & Offers | Upto 50% Off on Electronics, Fashion, Home & Kitchen, Grocery & More",
+        "image": "https://m.media-amazon.com/images/I/4118JmMFJNL._MCnd_AC_.jpg",
+        "purchase_link": "https://amzn.to/4jBJnYh",
+        "content": `
+          <div class="mb-3">
+              <div class="">
+                  <h2 class="card-title">#ProductReview</h2>
+                    <p class="">Amazon Top Deals & Offers | Upto 50% Off on Electronics, Fashion, Home & Kitchen, Grocery & More.</p>
+      
+              </div>
+          </div>
+        `,
+        "created_date": "20 Apr 2025"
+    },
+
 ];
 
 
