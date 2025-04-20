@@ -54,6 +54,14 @@ const productReviews = [
         content: "(Vibration Device & Speech tools) 1.V-Pen,2-Uni-Tip,3.Pointed-Tip,4.Talk-Tip,5.Spare battery,6.Usase book .",
         purchase_link: "https://amzn.to/4i0w6qk",
         created_date: "06 Apr 2025"
+    },
+    {
+        category: "Product Review",
+        title: "Boldfit Shoe Bag for Travel & Storage Organizer | Accessories for Women & Men | Shoe Pouches and Cover for Travelling Essentials",
+        image: "https://m.media-amazon.com/images/I/71UlEDZPiCL._SX679_.jpg",
+        content: "Boldfit Shoe Bag for Travel & Storage Organizer | Accessories for Women & Men | Shoe Pouches and Cover for Travelling Essentials",
+        purchase_link: "https://amzn.to/4i0w6qk",
+        created_date: "06 Apr 2025"
     }
 ];
 

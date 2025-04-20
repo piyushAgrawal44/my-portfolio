@@ -186,7 +186,44 @@ const blogs = [
           </div>
         `,
         "created_date": "06 Apr 2025"
-      }
+      },
+      {
+        "category": "Product Review",
+        "title": "Boldfit Shoe Bag for Travel & Storage Organizer | Accessories for Women & Men | Shoe Pouches and Cover for Travelling Essentials",
+        "image": "https://m.media-amazon.com/images/I/71UlEDZPiCL._SX679_.jpg",
+        "purchase_link": "https://amzn.to/3S29Stm",
+        "content": `
+          <div class="mb-3">
+              <div class="">
+                  <h2 class="card-title">#ProductReview</h2>
+                  <p class="">The Boldfit Shoe Bag is a compact and travel-friendly solution to keep your footwear organized, clean, and easy to carry during trips or daily use.</p>
+                  
+                  <p class="">Crafted for both men and women, this versatile shoe pouch is ideal for those who want to keep their shoes separate from clothes and other belongings while traveling. Whether it’s for gym shoes, formal footwear, or casual pairs—this cover ensures your essentials stay tidy and protected.</p>
+      
+                  <hr>
+      
+                  <h3 class="card-title">#KeyBenefits</h3>
+      
+                  <ul class="list-group list-group-numbered">
+                      <li class="">Protects shoes from dust, moisture, and scratches during travel.</li>
+                      <li class="">Saves space in your luggage with its compact and lightweight design.</li>
+                      <li class="">Durable zipper and handle make it convenient to carry anywhere.</li>
+                      <li class="">Multipurpose use: great for gym, travel, storage, and everyday organization.</li>
+                  </ul>
+      
+                  <hr>
+      
+                  <p class="">If you're someone who values organized travel or neat storage, the Boldfit Shoe Bag is a must-have in your collection. Have you used something like this before? Drop your experiences or tips in the comments!</p>
+      
+                  <p class="">That's all for today.</p>
+      
+                  <p class="">Signing off,</p>
+                  <p class="">Piyush Agrawal</p>
+              </div>
+          </div>
+        `,
+        "created_date": "20 Apr 2025"
+    }    
       
 ];
 
