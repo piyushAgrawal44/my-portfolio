@@ -186,8 +186,8 @@ const blogs = [
           </div>
         `,
         "created_date": "06 Apr 2025"
-      },
-      {
+    },
+    {
         "category": "Product Review",
         "title": "Boldfit Shoe Bag for Travel & Storage Organizer | Accessories for Women & Men | Shoe Pouches and Cover for Travelling Essentials",
         "image": "https://m.media-amazon.com/images/I/71UlEDZPiCL._SX679_.jpg",
@@ -223,8 +223,68 @@ const blogs = [
           </div>
         `,
         "created_date": "20 Apr 2025"
-    }    
+    },
+    {
+        "category": "Product Review",
+        "title": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Premium Metallic Finish, Angled Buds for Comfort fit (Black)",
+        "image": "https://m.media-amazon.com/images/I/51Q8DUDT2eL._SX679_.jpg",
+        "purchase_link": "https://amzn.to/441r2yF",
+        "content": `
+          <div class="mb-3">
+              <div class="">
+                  <h2 class="card-title">#ProductReview</h2>
+                    <p class="">The JBL C100SI Wired In-Ear Headphones are designed to deliver an immersive audio experience with their JBL Pure Bass sound technology.</p>
       
+                  <p class="">That's all for today.</p>
+      
+                  <p class="">Signing off,</p>
+                  <p class="">Piyush Agrawal</p>
+              </div>
+          </div>
+        `,
+        "created_date": "20 Apr 2025"
+    },
+    {
+        "category": "Product Review",
+        "title": "Fur Jaden 55 LTR Rucksack Travel Backpack Bag for Trekking, Hiking with Shoe Compartment",
+        "image": "https://m.media-amazon.com/images/I/71GxZAYa6UL._SX679_.jpg",
+        "purchase_link": "https://amzn.to/3Y9Bj8i",
+        "content": `
+          <div class="mb-3">
+              <div class="">
+                  <h2 class="card-title">#ProductReview</h2>
+                    <p class="">Fur Jaden 55 LTR Rucksack Travel Backpack Bag for Trekking, Hiking with Shoe Compartment.</p>
+      
+                  <p class="">That's all for today.</p>
+      
+                  <p class="">Signing off,</p>
+                  <p class="">Piyush Agrawal</p>
+              </div>
+          </div>
+        `,
+        "created_date": "20 Apr 2025"
+    },
+    {
+        "category": "Product Review",
+        "title": "Boldfit Waist Bag for Men and Women",
+        "image": "https://m.media-amazon.com/images/I/71sXlX7vdyL._SX679_.jpg",
+        "purchase_link": "https://amzn.to/42RR0nb",
+        "content": `
+          <div class="mb-3">
+              <div class="">
+                  <h2 class="card-title">#ProductReview</h2>
+                    <p class="">Boldfit Waist Bag for Men and Women. </p>
+      
+                  <p class="">That's all for today.</p>
+      
+                  <p class="">Signing off,</p>
+                  <p class="">Piyush Agrawal</p>
+              </div>
+          </div>
+        `,
+        "created_date": "20 Apr 2025"
+    },
+
 ];
 
 

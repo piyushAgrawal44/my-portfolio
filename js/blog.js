@@ -61,8 +61,32 @@ const productReviews = [
         image: "https://m.media-amazon.com/images/I/71UlEDZPiCL._SX679_.jpg",
         content: "Boldfit Shoe Bag for Travel & Storage Organizer | Accessories for Women & Men | Shoe Pouches and Cover for Travelling Essentials",
         purchase_link: "https://amzn.to/4i0w6qk",
-        created_date: "06 Apr 2025"
-    }
+        created_date: "15 Apr 2025"
+    },
+    {
+        category: "Product Review",
+        title: "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Premium Metallic Finish, Angled Buds for Comfort fit (Black)",
+        image: "https://m.media-amazon.com/images/I/51Q8DUDT2eL._SX679_.jpg",
+        content: "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Premium Metallic Finish, Angled Buds for Comfort fit (Black)",
+        "purchase_link": "https://amzn.to/441r2yF",
+        created_date: "15 Apr 2025"
+    },
+    {
+        category: "Product Review",
+        title: "Fur Jaden 55 LTR Rucksack Travel Backpack Bag for Trekking, Hiking with Shoe Compartment",
+        image: "https://m.media-amazon.com/images/I/71GxZAYa6UL._SX679_.jpg",
+        purchase_link: "https://amzn.to/3Y9Bj8i",
+        content: "Fur Jaden 55 LTR Rucksack Travel Backpack Bag for Trekking, Hiking with Shoe Compartment",
+        created_date: "15 Apr 2025"
+    },
+    {
+        category: "Product Review",
+        title: "Boldfit Waist Bag for Men and Women",
+        image: "https://m.media-amazon.com/images/I/71sXlX7vdyL._SX679_.jpg",
+        purchase_link: "https://amzn.to/42RR0nb",
+        content: "Boldfit Waist Bag for Men and Women",
+        created_date: "15 Apr 2025"
+    },
 ];
 
 // Function to dynamically generate blog articles using innerHTML
@@ -70,9 +94,9 @@ function generateBlogArticles() {
     const blogList = document.getElementById('blog-list');
     let html = '';
 
-    blogs.forEach((blog,index) => {
+    blogs.forEach((blog, index) => {
         html += `
-        <a class="decoration-none" href="./single-blog.html?id=${index+1}">
+        <a class="decoration-none" href="./single-blog.html?id=${index + 1}">
             <div class="article" style="background-image: url(${blog.image});">
                 <div class="overlay"></div>
                 <div class="wrap-cat">
@@ -93,9 +117,9 @@ function generateProductReviewArticles() {
     const blogList = document.getElementById('product-review-list');
     let html = '';
 
-    productReviews.forEach((blog,index) => {
+    productReviews.forEach((blog, index) => {
         html += `
-        <a class="decoration-none" href="./single-product-review.html?id=${index+1}">
+        <a class="decoration-none" href="./single-product-review.html?id=${index + 1}">
             <div class="article" style="background-image: url(${blog.image});">
                 <div class="overlay"></div>
                 <div class="wrap-cat">
@@ -112,7 +136,7 @@ function generateProductReviewArticles() {
 }
 
 // Call the function to generate blog articles on page load
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function () {
     generateBlogArticles();
     generateProductReviewArticles();
 });
