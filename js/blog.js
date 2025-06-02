@@ -95,6 +95,14 @@ const productReviews = [
         content: "Amazon Top Deals & Offers | Upto 50% Off on Electronics, Fashion, Home & Kitchen, Grocery & More",
         created_date: "15 Apr 2025"
     },
+    {
+        category: "Product Review",
+        title: "TecoKart® Wind Chimes for Balcony Garden Decor",
+        image: "https://m.media-amazon.com/images/I/61Linp2+w6L._SL1500_.jpg",
+        purchase_link: "https://amzn.to/4kJd9Kx",
+        content: "TecoKart® Wind Chimes for Balcony Garden Decor Balcony Decoration Items Garden Decoration Items Outdoor Wind Chimes with Melody Sound Hanging Bells for Home Decoration (12 Pipe)",
+        created_date: "1 June 2025"
+    },
 ];
 
 // Function to dynamically generate blog articles using innerHTML
