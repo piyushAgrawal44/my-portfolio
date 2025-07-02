@@ -319,6 +319,42 @@ const blogs = [
         "created_date": "1 June 2025"
     },
 
+    {
+        "category": "Product Review",
+        "title": "Sparnod Fitness SAS-1000 Aerobic Gym Stepper for Exercise at Home ",
+        "image": "https://m.media-amazon.com/images/I/71kUPMFkxiL._SX679_.jpg",
+        "purchase_link": "https://amzn.to/3GrnrjW",
+        "content": `
+        <div class="mb-3">
+            <div class="">
+                <h2 class="card-title">#ProductReview</h2>
+                <p class="">
+                    Sparnod Fitness SAS-1000 Aerobic Gym Stepper for Exercise at Home, Adjustable Height, Anti-Skid Surface, Supports up to 225 kg, Compact & Portable, Ideal for Cardio, Strength Training & Pilates Red
+                </p>
+            </div>
+        </div>
+    `,
+        "created_date": "1 July 2025"
+    },
+
+    {
+        "category": "Product Review",
+        "title": "Nordic Naturals Arctic Cod Liver Oil",
+        "image": "https://m.media-amazon.com/images/I/61c9+WTs+fL._SX679_.jpg",
+        "purchase_link": "https://amzn.to/3Gild6C",
+        "content": `
+        <div class="mb-3">
+            <div class="">
+                <h2 class="card-title">#ProductReview</h2>
+                <p class="">
+                    Nordic Naturals Arctic Cod Liver Oil|750 Mg Omega 3 Fish Oil EPA & DHA Supplement|Omega 3 Cod Liver Oil Liquid For Heart,Brain Health & Optimal Wellness|Flavour Lemon Fish Oil 90 Softgels, 160 grams
+                </p>
+            </div>
+        </div>
+    `,
+        "created_date": "1 July 2025"
+    },
+
 
 
 

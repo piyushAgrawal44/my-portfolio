@@ -49,60 +49,21 @@ const productReviews = [
     },
     {
         category: "Product Review",
-        title: "SPEECHGEARS Tactile Kit, Sensory Integration Tools, Speech Tools, Feeding Tools, V-Pen, Uni-Tip, Pointed-Tip, Talk-Tip (Red)",
-        image: "https://m.media-amazon.com/images/I/71sMxjgDZ+L._SX679_.jpg",
-        content: "(Vibration Device & Speech tools) 1.V-Pen,2-Uni-Tip,3.Pointed-Tip,4.Talk-Tip,5.Spare battery,6.Usase book .",
-        purchase_link: "https://amzn.to/4i0w6qk",
-        created_date: "06 Apr 2025"
+        title: "Sparnod Fitness SAS-1000 Aerobic Gym Stepper for Exercise at Home ",
+        image: "https://m.media-amazon.com/images/I/71kUPMFkxiL._SX679_.jpg",
+        purchase_link: "https://amzn.to/3GrnrjW",
+        content: "Sparnod Fitness SAS-1000 Aerobic Gym Stepper for Exercise at Home, Adjustable Height, Anti-Skid Surface, Supports up to 225 kg, Compact & Portable, Ideal for Cardio, Strength Training & Pilates Red",
+        created_date: "1 July 2025"
     },
     {
         category: "Product Review",
-        title: "Boldfit Shoe Bag for Travel & Storage Organizer | Accessories for Women & Men | Shoe Pouches and Cover for Travelling Essentials",
-        image: "https://m.media-amazon.com/images/I/71UlEDZPiCL._SX679_.jpg",
-        content: "Boldfit Shoe Bag for Travel & Storage Organizer | Accessories for Women & Men | Shoe Pouches and Cover for Travelling Essentials",
-        purchase_link: "https://amzn.to/4i0w6qk",
-        created_date: "15 Apr 2025"
+        title: "Nordic Naturals Arctic Cod Liver Oil",
+        image: "https://m.media-amazon.com/images/I/61c9+WTs+fL._SX679_.jpg",
+        purchase_link: "https://amzn.to/3Gild6C",
+        content: " Nordic Naturals Arctic Cod Liver Oil|750 Mg Omega 3 Fish Oil EPA & DHA Supplement|Omega 3 Cod Liver Oil Liquid For Heart,Brain Health & Optimal Wellness|Flavour Lemon Fish Oil 90 Softgels, 160 grams",
+        created_date: "1 July 2025"
     },
-    {
-        category: "Product Review",
-        title: "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Premium Metallic Finish, Angled Buds for Comfort fit (Black)",
-        image: "https://m.media-amazon.com/images/I/51Q8DUDT2eL._SX679_.jpg",
-        content: "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Premium Metallic Finish, Angled Buds for Comfort fit (Black)",
-        "purchase_link": "https://amzn.to/441r2yF",
-        created_date: "15 Apr 2025"
-    },
-    {
-        category: "Product Review",
-        title: "Fur Jaden 55 LTR Rucksack Travel Backpack Bag for Trekking, Hiking with Shoe Compartment",
-        image: "https://m.media-amazon.com/images/I/71GxZAYa6UL._SX679_.jpg",
-        purchase_link: "https://amzn.to/3Y9Bj8i",
-        content: "Fur Jaden 55 LTR Rucksack Travel Backpack Bag for Trekking, Hiking with Shoe Compartment",
-        created_date: "15 Apr 2025"
-    },
-    {
-        category: "Product Review",
-        title: "Boldfit Waist Bag for Men and Women",
-        image: "https://m.media-amazon.com/images/I/71sXlX7vdyL._SX679_.jpg",
-        purchase_link: "https://amzn.to/42RR0nb",
-        content: "Boldfit Waist Bag for Men and Women",
-        created_date: "15 Apr 2025"
-    },
-    {
-        category: "Product Review",
-        title: "Amazon Top Deals & Offers | Upto 50% Off on Electronics, Fashion, Home & Kitchen, Grocery & More",
-        image: "https://m.media-amazon.com/images/I/4118JmMFJNL._MCnd_AC_.jpg",
-        purchase_link: "https://amzn.to/4jBJnYh",
-        content: "Amazon Top Deals & Offers | Upto 50% Off on Electronics, Fashion, Home & Kitchen, Grocery & More",
-        created_date: "15 Apr 2025"
-    },
-    {
-        category: "Product Review",
-        title: "TecoKart® Wind Chimes for Balcony Garden Decor",
-        image: "https://m.media-amazon.com/images/I/61Linp2+w6L._SL1500_.jpg",
-        purchase_link: "https://amzn.to/4kJd9Kx",
-        content: "TecoKart® Wind Chimes for Balcony Garden Decor Balcony Decoration Items Garden Decoration Items Outdoor Wind Chimes with Melody Sound Hanging Bells for Home Decoration (12 Pipe)",
-        created_date: "1 June 2025"
-    },
+
 ];
 
 // Function to dynamically generate blog articles using innerHTML
