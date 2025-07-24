@@ -19,51 +19,11 @@ const blogs = [
 const productReviews = [
     {
         category: "Product Review",
-        title: "hoop Magnesium Sleep Body Lotion | Topical Magnesium Chloride Supplement for Muscle Recovery, Better Sleep | Magnesium Oil Supports Deep Sleep, Recovery from Cramps, Fitness | 250 ml",
-        image: "https://m.media-amazon.com/images/I/71zRBjJvF+L._SX679_.jpg",
-        content: "Magnesium sleep lotion has magnesium oil, lavender that relax muscles for natural good sleep support",
-        created_date: "19 Feb 2025"
+        title: "Kids school bags",
+        image: "https://m.media-amazon.com/images/I/61FfJ+vlOCL._SX679_.jpg",
+        content: "Skybags Buddy 03 Dino 20 Liters Premium Polyester Fabric School Backpack for Kids with Multiple",
+        created_date: "19 July 2025"
     },
-    {
-        category: "Product Review",
-        title: "FARM BIONICS Combo of Guava Flavour Vitamin B12 and Muskmelon Flovour Vitamin D3 Oral Spray, 30ml | 100% Vegetarian",
-        image: "https://m.media-amazon.com/images/I/710YzKz--eL._SX679_.jpg",
-        content: "FARM BIONICS Combo of Guava Flavour Vitamin B12 and Muskmelon Flovour Vitamin D3 Oral Spray, 30ml | 100% Vegetarian | Sugar and Gluten Free | Immunity Booster Spray for Men and Women",
-        created_date: "19 Feb 2025"
-    },
-    {
-        category: "Product Review",
-        title: "She Essentials Lavender Essential Oil Combo for Hair Nourishment, Moisturizing Skin - 100% Pure, Natural and Undiluted Oil, For Healthy Hair & Growth, Skin, Hair Fall Control and Relaxing Sleep | 2x5ml",
-        image: "https://m.media-amazon.com/images/I/61UDQ55JMQL._SX679_PIbundle-2,TopRight,0,0_AA679SH20_.jpg",
-        content: "100% pure and natural lavender essential oil that nourishes hair, moisturizes skin, and promotes relaxation for better sleep.",
-        purchase_link: "https://amzn.to/4i5QkQ4",
-        created_date: "19 Feb 2025"
-    },
-    {
-        category: "Product Review",
-        title: "BLUE TEA - Chamomile Tea - 30 g - 30+ Cups | SLEEP & RELAXATION | Herbal Tea - Caffeine Free - Flower Based - Non-Bitter - Non-GMO | Featured In Shark Tank | Reusable Pet Jar",
-        image: "https://m.media-amazon.com/images/I/61CGFIrP6vL._SX679_.jpg",
-        content: "A caffeine-free herbal tea made from chamomile flowers, promoting relaxation, stress relief, and better sleep.",
-        purchase_link: "https://amzn.to/3ELeWzf",
-        created_date: "19 Feb 2025"
-    },
-    {
-        category: "Product Review",
-        title: "Sparnod Fitness SAS-1000 Aerobic Gym Stepper for Exercise at Home ",
-        image: "https://m.media-amazon.com/images/I/71kUPMFkxiL._SX679_.jpg",
-        purchase_link: "https://amzn.to/3GrnrjW",
-        content: "Sparnod Fitness SAS-1000 Aerobic Gym Stepper for Exercise at Home, Adjustable Height, Anti-Skid Surface, Supports up to 225 kg, Compact & Portable, Ideal for Cardio, Strength Training & Pilates Red",
-        created_date: "1 July 2025"
-    },
-    {
-        category: "Product Review",
-        title: "Nordic Naturals Arctic Cod Liver Oil",
-        image: "https://m.media-amazon.com/images/I/61c9+WTs+fL._SX679_.jpg",
-        purchase_link: "https://amzn.to/3Gild6C",
-        content: " Nordic Naturals Arctic Cod Liver Oil|750 Mg Omega 3 Fish Oil EPA & DHA Supplement|Omega 3 Cod Liver Oil Liquid For Heart,Brain Health & Optimal Wellness|Flavour Lemon Fish Oil 90 Softgels, 160 grams",
-        created_date: "1 July 2025"
-    },
-
 ];
 
 // Function to dynamically generate blog articles using innerHTML
