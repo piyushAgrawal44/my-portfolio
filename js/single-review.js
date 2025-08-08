@@ -1,9 +1,9 @@
 const blogs = [
     {
         category: "Product Review",
-        title: "Kids school bags",
+        title: "Spiro meter",
         image: "https://m.media-amazon.com/images/I/61FfJ+vlOCL._SX679_.jpg",
-        purchase_link: "https://amzn.to/3GEKAji", // Add purchase link
+        purchase_link: "https://amzn.to/3J5c7es", // Add purchase link
         content: `
         <div class="mb-3">
             <div class="">
@@ -23,10 +23,54 @@ const blogs = [
         `,
         created_date: "19 July 2025"
     },
-   
-
-
-
+    {
+        category: "Product Review",
+        title: "OnePlus Nord CE4 (Dark Chrome, 8GB RAM, 128GB Storage) ",
+        image: "https://m.media-amazon.com/images/I/61g1pqSjAhL._SX679_.jpg",
+        purchase_link: "https://amzn.to/45rDYgi", // Add purchase link
+        content: `
+        <div class="mb-3">
+            <div class="">
+                <h2 class="card-title">#ProductReview</h2>
+                <p class="">OnePlus Nord CE4 (Dark Chrome, 8GB RAM, 128GB Storage)</p>
+               
+              
+                
+                <p class="">Have you tried this product? Share your thoughts in the comments!</p>
+                
+                <p class="">That's all for today.</p>
+                
+                <p class="">Signing off,</p>
+                <p class="">Piyush Agrawal</p>
+            </div>
+        </div>
+        `,
+        created_date: "19 July 2025"
+    },
+    {
+        category: "Product Review",
+        title: "Body Fat Checker ",
+        image: "https://m.media-amazon.com/images/I/61g1pqSjAhL._SX679_.jpg",
+        purchase_link: "https://amzn.to/3J4JMox", // Add purchase link
+        content: `
+        <div class="mb-3">
+            <div class="">
+                <h2 class="card-title">#ProductReview</h2>
+                <p class="">OnePlus Nord CE4 (Dark Chrome, 8GB RAM, 128GB Storage)</p>
+               
+              
+                
+                <p class="">Have you tried this product? Share your thoughts in the comments!</p>
+                
+                <p class="">That's all for today.</p>
+                
+                <p class="">Signing off,</p>
+                <p class="">Piyush Agrawal</p>
+            </div>
+        </div>
+        `,
+        created_date: "19 July 2025"
+    },
 
 ];
 

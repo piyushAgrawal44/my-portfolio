@@ -24,6 +24,13 @@ const productReviews = [
         content: "Skybags Buddy 03 Dino 20 Liters Premium Polyester Fabric School Backpack for Kids with Multiple",
         created_date: "19 July 2025"
     },
+    {
+        category: "Product Review",
+        title: "Mobile phone",
+        image: "https://m.media-amazon.com/images/I/61g1pqSjAhL._SX679_.jpg",
+        content: "OnePlus Nord CE4 (Dark Chrome, 8GB RAM, 128GB Storage)",
+        created_date: "19 July 2025"
+    },
 ];
 
 // Function to dynamically generate blog articles using innerHTML
