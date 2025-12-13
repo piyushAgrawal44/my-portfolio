@@ -196,7 +196,7 @@ body {
 
 .contactImg {
     width: 100%;
-    max-width: 350px;
+    max-width: 290px;
     margin: auto;
 }
 
@@ -389,8 +389,7 @@ body {
     height: 80px;
     margin: 0;
     padding: 30px 0;
-    text-align: center;
-    background: linear-gradient(#4f84c4, #00539c);
+    text-align: center;background: #d5c455;
     border-radius: 100px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     color: #ffffff;
@@ -416,7 +415,7 @@ body {
     top: 0;
     left: 50%;
     margin-left: -1px;
-    background: #4f84c4;
+    background: #d5c455;
   }
   
   .timeline .row.timeline-left,
@@ -442,7 +441,7 @@ body {
     width: 14px;
     height: 14px;
     top: 45px;
-    background: linear-gradient(#4f84c4, #00539c);
+    background: #d5c455;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     z-index: 1;
@@ -543,7 +542,7 @@ body {
   
   .timeline .timeline-icon i {
     font-size: 25px;
-    color: #4f84c4;
+    color: #d5c455;
   }
   
   .timeline .timeline-box .timeline-text {
